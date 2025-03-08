@@ -10,6 +10,46 @@
     {
       "src": "/(.*)",
       "dest": "/index.html"
+    },
+    {
+      "src": "/(_locale)/sitemap/_type/_page_.xml",
+      "dest": "/sitemap.xml"
+    },
+    {
+      "src": "/(_locale)/account/authorize",
+      "dest": "/account/authorize.html"
+    },
+    {
+      "src": "/(_locale)/account/logout",
+      "dest": "/account/logout.html"
+    },
+    {
+      "src": "/(_locale)/account/index",
+      "dest": "/account/index.html"
+    },
+    {
+      "src": "/(_locale)/account/login",
+      "dest": "/account/login.html"
+    },
+    {
+      "src": "/(_locale)/discount/code",
+      "dest": "/discount/code.html"
+    },
+    {
+      "src": "/(_locale)/sitemap.xml",
+      "dest": "/sitemap.xml"
+    },
+    {
+      "src": "/(_locale)/account",
+      "dest": "/account/index.html"
+    },
+    {
+      "src": "/robots.txt",
+      "dest": "/robots.txt"
+    },
+    {
+      "src": "/(_locale)",
+      "dest": "/index.html"
     }
   ]
 }
